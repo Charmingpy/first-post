@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: poppin;
+  src: url(" font/Poppins-Regular.ttf");
+}
+
+body {
+  background-color: #fe797a;
+  /* font-size: 16px;  */
+  font-family: poppin;
+}
+
+.main {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.con1 {
+  color: white;
+  margin: 20px;
+}
+
+.learn {
+  font-size: 40px;
+  font-weight: 700;
+}
+.con2 {
+  border: 20px;
+  background-color: white;
+  padding: 30px;
+  width: 100%;
+  border: 1px;
+  border-radius: 10px;
+}
+.try {
+    text-align: center;
+  background-color: #5d54a3;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  border: 1px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+form {
+  padding: 10px;
+  width: 300px;
+
+  align-items: center;
+  box-shadow: 90px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+button {
+  background-color: #37cc8a;
+  padding: 20px;
+  border: 1px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+}
+/* 
+footer {
+  font-size: 9px;
+  width: 100%;
+} */
+
+.foot{
+    text-align: center;
+    color: rgb(231, 225, 225);
+    font-weight: 100;
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.terms{
+    color: red;
+}
